@@ -1,0 +1,55 @@
+/* Apply a global font style for the page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Style the buttons */
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Style the "Generate Full Sentence" button differently */
+.Full {
+  background-color: #ff5722;
+  font-weight: bold;
+}
+
+/* Hover effect for all buttons */
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the "Generate Full Sentence" button differently */
+.Full {
+  background-color: #ff5722;
+  font-weight: bold;
+}
+
+.Full:hover {
+  background-color: #d84315;
+}
+/* Styling h1 class*/
+.container > h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  animation: intro 3s ease-in;
+}
+h1:hover {
+  background-color: cornsilk;
+}
